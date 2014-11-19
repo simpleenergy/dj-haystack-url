@@ -14,14 +14,14 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
     name='dj-haystack-url',
-    version='0.1.0',
+    version='0.2.0',
     description='Haystack configuration from environment variable',
     long_description=readme + '\n\n' + history,
     author='Piper Merriam',
     author_email='piper@simpleenergy.com',
     url='https://github.com/simpleenergy/dj-haystack-url',
     py_modules=[
-        'dj-haystack-url',
+        'dj_haystack_url',
     ],
     include_package_data=True,
     license="MIT",
